@@ -10,7 +10,7 @@ void main()
     time_t t;
     char key[KEYSIZE];
     FILE *f;
-    f = fopen("key.txt", "w");
+    f = fopen("possible_key.txt", "w");
     for (t = START; t < END; t++) // Within two hours
     {
         /* Initialize random number generator */
